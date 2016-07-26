@@ -11,7 +11,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $active = ENVIRONMENT;
 switch ($active) {
     case 'development' :
-        define('BASE_URL', 'http://localhost/project/apnatiffin_new/');
+        define('BASE_URL', 'http://localhost/project/apnatiffin_new/ApnaTiffin/');
         break;
     case 'production' :
         define('BASE_URL', 'http://apnatiffin.in/');
@@ -156,6 +156,6 @@ define('cancelled', 3);
   |--------------------------------------------------------------------------
  */
 
-define('MERCHANT_KEY', 'eKLokb');
-define('MERCHANT_SALT', 'PbsRuAhY');
+define('MERCHANT_KEY', '');
+define('MERCHANT_SALT', '');
 define('PAYU_BASE_URL', 'https://secure.payu.in/');

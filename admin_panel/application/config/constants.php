@@ -10,8 +10,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $active = ENVIRONMENT;
 switch ($active) {
     case 'development' :
-        define('BASE_URL', 'http://localhost/project/apnatiffin_new/admin_panel/');
-        define('BASE_URL2', 'http://localhost/project/apnatiffin_new/');
+        define('BASE_URL', 'http://localhost/project/apnatiffin_new/ApnaTiffin/admin_panel/');
+        define('BASE_URL2', 'http://localhost/project/apnatiffin_new/ApnaTiffin/');
         break;
     case 'production' :
         define('BASE_URL', 'http://apnatiffin.in/admin_panel/');
